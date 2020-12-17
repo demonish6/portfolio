@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+* {
+  font-family: 'Sora', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.text-ws {
+  color: whitesmoke;
+  font-family: 'Sora', sans-serif !important;
+}
+
+.text-blue {
+  color: #15cdfc;
+  font-family: 'Sora', sans-serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.styles_header__3PFGX{
+  position: sticky !important;
+}
+
+.illustration{
+  height: 65vh;
+  width: 33vw;
+}
+
+.gamer{
+  height: 65vh;
+  width: 33vw;
+}
+
+.pad-5{
+  padding: 3rem !important;
+}
+
+.carousel-indicators {
+  background-color: transparent;
+}
+
+.mobile-navbar {
+  display: none;
+}
+
+.bg-ws{
+  background-color: whitesmoke;
+}
+
+.hard-center{
+  text-align: -moz-center;
+}
+
+.card-shadow{
+  -webkit-box-shadow: 0px 14px 65px -17px rgba(196,196,196,0.74);
+  -moz-box-shadow: 0px 14px 65px -17px rgba(196,196,196,0.74);
+  box-shadow: 0px 14px 65px -17px rgba(196,196,196,0.74);
+}
+
+.font-small {
+  font-size: small;
+}
+
+@media screen and (max-width: 991px) {
+  .carousel-container {
+    display: inline-table;
+  }
+
+  .illustration{
+    height: inherit;
+    width: inherit;
+  }
+  
+  .gamer{
+    height: inherit;
+    width: inherit;
+  }
+
+  .pad-5 {
+    padding: 1.5rem !important;
+  }
+
+  .desktop-navbar {
+    display: none !important;
+  }
+
+  .contact-card{
+    width: 22rem !important;
+    font-size: small;
+  }
+
+  .text-ws {
+    color: whitesmoke;
+    font-family: 'Sora', sans-serif;
+    font-size: small;
+  }
+  
+  .text-blue {
+    color: #15cdfc;
+    font-family: 'Sora', sans-serif;
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .contact-card{
+    width: 19rem !important;
+    font-size: small;
+  }
+
+  .text-ws {
+    color: whitesmoke;
+    font-family: 'Sora', sans-serif !important;
+    font-size: small !important;
+  }
+  
+  .text-blue {
+    color: #252c2e;
+    font-family: 'Sora', sans-serif !important;
+    font-size: small !important;
+  }
+}
